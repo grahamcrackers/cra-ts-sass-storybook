@@ -11,15 +11,25 @@
     "build-storybook": "build-storybook -s public"
   },
   "dependencies": {
+    "@material/button": "^3.1.0",
     "@material/card": "^3.1.0",
+    "@material/form-field": "^3.1.0",
+    "@material/icon-button": "^2.1.1",
+    "@material/radio": "^3.1.0",
+    "@material/ripple": "^3.1.0",
+    "@material/switch": "^3.1.0",
+    "@material/typography": "^3.1.0",
+    "classnames": "^2.2.6",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "utility-types": "^3.7.0"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^5.1.9",
     "@storybook/addon-links": "^5.1.9",
     "@storybook/addons": "^5.1.9",
     "@storybook/react": "^5.1.9",
+    "@types/classnames": "^2.2.9",
     "@types/jest": "24.0.16",
     "@types/node": "12.6.8",
     "@types/react": "16.8.23",

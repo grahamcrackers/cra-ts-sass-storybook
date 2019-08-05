@@ -1,0 +1,36 @@
+.fundraiser-card {
+    padding: 16px;
+    width: 350px;
+
+    h5 {
+        margin: 0;
+    }
+
+    h6 {
+        color: #878a8f;
+        margin: 0;
+    }
+}
+
+.card-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fundraiser-card__switches {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    .mdc-form-field {
+        flex: 1 1 50%;
+        min-height: 50px;
+        justify-content: space-between;
+
+        > label {
+            padding: 0;
+            margin: 10px;
+        }
+    }
+}
